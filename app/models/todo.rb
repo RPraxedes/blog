@@ -18,5 +18,5 @@ class Todo < ApplicationRecord
   # validates :description, numericality: true, on: :var
   # todo.valid?(:var)
 
-  has_many :task
+  belongs_to :user
 end
